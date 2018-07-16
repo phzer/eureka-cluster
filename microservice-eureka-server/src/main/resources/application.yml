@@ -1,0 +1,11 @@
+server:
+  port: 8761
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server2:8762/eureka/,http://server3:8763/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    hostname: server1
+    appname: microservice-eureka-server
