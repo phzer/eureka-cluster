@@ -1,5 +1,6 @@
 # eureka-cluster
 three eureka cluster
+基于spring boot 2.1
 
 三个eureka server独立部署的集群
 
